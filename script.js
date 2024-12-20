@@ -13,7 +13,7 @@ function showForm(formId) {
 function login() {
     const email = document.getElementById('loginEmail').value;
     const password = document.getElementById('loginPassword').value;
-    // Aggiungi qui il codice per gestire l'autenticazione dell'utente
+    
     alert(`Login con email: ${email} e password: ${password}`);
 }
 
@@ -22,9 +22,9 @@ function register() {
     const surname = document.getElementById('registerSurname').value;
     const email = document.getElementById('registerEmail').value;
     const password = document.getElementById('registerPassword').value;
-    // Aggiungi qui il codice per gestire la registrazione dell'utente
+    
     alert(`Registrazione con nome: ${name}, cognome: ${surname}, email: ${email} e password: ${password}`);
 }
 
-// Mostra il modulo di login all'avvio
+
 showForm('login');
